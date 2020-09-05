@@ -1,0 +1,13 @@
+[package]
+name = "bc_extact"
+version = "0.1.0"
+authors = ["Marco 'don' Kaulea <don@0xbeef.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "flac2mp3"
+path = "src/flac2mp3/main.rs"
+
+[dependencies]
